@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080e18">
+  <meta name="description" content="Official links — community, support, and social media.">
+  <title>SarJe | Official Links</title>
+  <style>
+    :root{color-scheme:dark;--bg:#080e18;--panel:#132b3a;--line:#244455;--cyan:#67e8f9;--text:#f0f9ff;--muted:#94a3b8}
+    *{box-sizing:border-box}html{min-height:100%}body{margin:0;min-height:100vh;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:var(--text);background:radial-gradient(ellipse 70% 32% at 50% -5%,#164a5b 0%,transparent 78%),var(--bg);padding:52px 18px 30px}
+    main{width:min(100%,480px);margin:auto}.profile{text-align:center;margin-bottom:30px}.avatar{overflow:hidden;height:88px;width:88px;border:2px solid var(--cyan);border-radius:50%;display:grid;place-items:center;margin:0 auto 16px;background:linear-gradient(140deg,#123543,#0c1824);box-shadow:0 0 30px #22d3ee30;color:var(--cyan);font-size:28px;font-weight:800;letter-spacing:1px}.avatar img{width:100%;height:100%;object-fit:cover;object-position:center 19%;display:block}.profile h1{font-size:24px;letter-spacing:2px;margin:0 0 7px}.subtitle{color:var(--muted);font-size:13px;margin:0}.tags{display:flex;justify-content:center;flex-wrap:wrap;gap:7px;margin-top:16px}.tags span{font-size:10px;letter-spacing:.7px;padding:6px 11px;border:1px solid var(--line);border-radius:30px;color:var(--cyan)}
+    details{background:var(--panel);border:1px solid var(--line);border-radius:14px;margin:12px 0;overflow:hidden;transition:border-color .2s,box-shadow .2s}details[open]{border-color:#38bdf8;box-shadow:0 0 24px #38bdf818}summary{cursor:pointer;list-style:none;padding:18px;display:flex;align-items:center;justify-content:space-between;gap:10px;font-weight:750;font-size:13px;letter-spacing:.8px;user-select:none}summary::-webkit-details-marker{display:none}summary::after{content:'+';font-size:24px;color:var(--cyan);font-weight:400;line-height:1}details[open] summary::after{content:'−'}.links{display:grid;gap:9px;padding:0 12px 12px}.links a{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:15px 16px;background:#1a3848;border-radius:9px;color:#e2f5fa;text-decoration:none;font-size:14px;transition:background .2s,transform .2s}.links a::after{content:'↗';color:var(--cyan);font-size:17px}.links a:hover,.links a:focus-visible{background:#24516a;transform:translateY(-2px)}a:focus-visible,summary:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}.footer{text-align:center;color:#64748b;font-size:11px;margin-top:32px} .hint{text-align:center;color:#7892a1;font-size:11px;margin-top:15px}
+    @media(max-width:420px){body{padding-top:36px}.profile h1{font-size:21px}summary{padding:16px}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
+  </style>
+</head>
+<body>
+  <main>
+    <header class="profile">
+      <div class="avatar"><img src="profile.webp" alt="Foto profil SarJe" width="88" height="88"></div>
+      <h1>SarJe</h1>
+      <p class="subtitle">@SarJe • Content Creator</p>
+      <div class="tags"><span>GAMING</span><span>STREAMER</span><span>CREATOR</span></div>
+    </header>
+    <section aria-label="Kumpulan tautan">
+      <details open>
+        <summary>💙 COMMUNITY &amp; SUPPORT</summary>
+        <div class="links">
+          <a href="https://discord.gg/mDZangxEQX" target="_blank" rel="noopener noreferrer">Discord</a>
+          <a href="https://saweria.co/redpanda" target="_blank" rel="noopener noreferrer">Saweria</a>
+          <a href="https://sociabuzz.com/sarje" target="_blank" rel="noopener noreferrer">Sociabuzz</a>
+        </div>
+      </details>
+      <details>
+        <summary>▶️ SOCIAL MEDIA</summary>
+        <div class="links">
+          <a href="https://www.youtube.com/@FatalStep" target="_blank" rel="noopener noreferrer">YouTube</a>
+          <a href="https://www.tiktok.com/@haryoagungbagaskara" target="_blank" rel="noopener noreferrer">TikTok</a>
+        </div>
+      </details>
+      <details>
+        <summary>🔗 OTHER LINKS</summary>
+        <div class="links">
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer">My Website (Coming Soon)</a>
+        </div>
+      </details>
+    </section>
+    <p class="hint">Ketuk kategori untuk membuka atau menutup tautan.</p>
+    <footer class="footer">© <span id="year">2026</span> SarJe • ALL RIGHTS RESERVED</footer>
+  </main>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
